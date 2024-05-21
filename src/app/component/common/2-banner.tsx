@@ -13,7 +13,7 @@ function Banner () {
         </div>
 
         <div>
-            <img src="./Group 1.png" alt="" />
+            <img src="./banner.png" alt="" />
         </div>
     </section>;
 }

@@ -1,7 +1,7 @@
 function Header() {
-    return <section className="h-20 bg-slate-100 lg:flex items-center gap-x-60">
+    return <section className="h-20 bg-[#F5F7FA] lg:flex items-center gap-x-60">
         <div className="ml-36">
-            <img src="./logo1.png" alt="" />
+            <img src="./header-logo.png" alt="" />
         </div>
 
         <div className="text-base font-normal lg:flex lg:gap-x-8">
