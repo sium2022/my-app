@@ -6,7 +6,8 @@ import OurSupportPartner from "./component/common/5-our-support-partner";
 import Service from "./component/common/6-service";
 import Founder from "./component/common/7-founder";
 import Team from "./component/common/8-team";
-import PhotoGallery from "./component/common/9-photo-gallery";
+import SteveJobs from "./component/common/9-stevejobs";
+import PhotoGallery from "./component/common/10-photo-gallery";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Service/>
       <Founder/>
       <Team/>
+      <SteveJobs/>
       <PhotoGallery/>
 
     </main>
