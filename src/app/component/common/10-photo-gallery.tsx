@@ -1,12 +1,11 @@
 function PhotoGallery() {
     return <section className="bg-[#F5F7FA] py-20 lg:px-40">
-        <div>
+        {/* <div>
             <p className="font-semibold text-5xl text-center mb-4">Photo Gallery</p>
             <p className="font-medium text-lg text-center mb-16">Let's make your work more organize and easily using the Taskio</p>
         </div>
 
-
-        {/* <div className="grid grid-rows-4">
+            <div className="grid grid-rows-4">
             <div>
                 <img className="row-span-2 gap-5"
                     src="./pg-1.jpg"
