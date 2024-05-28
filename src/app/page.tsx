@@ -7,6 +7,7 @@ import Service from "./component/common/6-service";
 import Founder from "./component/common/7-founder";
 import Team from "./component/common/8-team";
 import SteveJobs from "./component/common/9-stevejobs";
+import CeoQuote from "./component/common/11-ceoquote";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Founder/>
       <Team/>
       <SteveJobs/>
+      <CeoQuote/>
 
     </main>
   );
