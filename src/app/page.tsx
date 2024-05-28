@@ -8,6 +8,9 @@ import Founder from "./component/common/7-founder";
 import Team from "./component/common/8-team";
 import SteveJobs from "./component/common/9-stevejobs";
 import CeoQuote from "./component/common/11-ceoquote";
+import Footer1 from "./component/common/12-footer1";
+import Footer2 from "./component/common/13-footer2";
+import Footer3 from "./component/common/14-footer3";
 
 export default function Home() {
   return (
@@ -23,6 +26,9 @@ export default function Home() {
       <Team/>
       <SteveJobs/>
       <CeoQuote/>
+      <Footer1/>
+      <Footer2/>
+      <Footer3/>
 
     </main>
   );
