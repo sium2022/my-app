@@ -31,7 +31,7 @@ function Footer2 (){
         <div className="gap-2">
             <form className="flex gap-4 items-center" action="">
                 <input className="h-10 border-none px-2" type="email" placeholder="Your email" />
-                <p className="rounded-full bg-[#FF8B73] text-white px-4 py-3 font-medium"><a href="">Subscribe</a></p>
+                <p className="rounded-full border-none bg-[#FF8B73] text-white px-4 py-3 font-medium"><a href="">Subscribe</a></p>
             </form>
         </div>
     </div>
