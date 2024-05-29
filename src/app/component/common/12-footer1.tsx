@@ -36,6 +36,13 @@ function Footer1() {
 
                 
             </div>
+
+            <div className="gap-5 flex">
+                    <img src="./twitter.jpg" alt="" />
+                    <img src="./linkedin.jpg" alt="" />
+                    <img src="./facebook.jpg" alt="" />
+                    <img src="./instagram.jpg" alt="" />
+                </div>
         </div>
 
         <div></div>
