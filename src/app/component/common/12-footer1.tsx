@@ -45,7 +45,33 @@ function Footer1() {
             </div>
         </div>
 
-        <div></div>
+        <div className="pl-20 pr-32 bg-[#FFF]">
+            <form className="gap-y-10" action="">
+                <div className="flex">
+                    <div className="mr-10">
+                        <p>First Name</p>
+                        <input type="text" name="name" placeholder="" id="" />
+                    </div>
+
+                    <div className="">
+                        <p>Last Name</p>
+                        <input type="text" name="name" placeholder="" id="" />
+                    </div>
+                </div>
+
+                <div className="flex my-10">
+                    <div className="mr-10">
+                        <p>Email Address</p>
+                        <input type="email" name="email" placeholder="" id="" />
+                    </div>
+
+                    <div className="">
+                        <p>Mobile Number</p>
+                        <input type="number" name="number" placeholder="" id="" />
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>;
 }
 
