@@ -20,29 +20,29 @@ function Footer1() {
                 <div className="my-10 flex gap-7">
                     <img className="items-start" src="./map.jpg" alt="" />
                     <div>
-                    <p className="font-normal text-base">
-                        <span className="font-bold text-[#FF8166]">Head Office:</span> 68/3/C, Zigatola Post <br /> Office Road, Dhaka - 1209
-                    </p>
+                        <p className="font-normal text-base">
+                            <span className="font-bold text-[#FF8166]">Head Office:</span> 68/3/C, Zigatola Post <br /> Office Road, Dhaka - 1209
+                        </p>
 
-                    <p className="font-normal text-base my-4">
-                        <span className="font-bold text-[#FF8166]">Ware House:</span> 3 No Gate, Tannery Industry <br /> Area Hemayetpur, Savar, Dhaka - 1340
-                    </p>
+                        <p className="font-normal text-base my-4">
+                            <span className="font-bold text-[#FF8166]">Ware House:</span> 3 No Gate, Tannery Industry <br /> Area Hemayetpur, Savar, Dhaka - 1340
+                        </p>
 
-                    <p className="font-normal text-base">
-                        <span className="font-bold text-[#FF8166]">Lab:</span> YS-12-B, Tannery Industry Area <br /> Hemayetpur, Savar, Dhaka - 1340
-                    </p>
+                        <p className="font-normal text-base">
+                            <span className="font-bold text-[#FF8166]">Lab:</span> YS-12-B, Tannery Industry Area <br /> Hemayetpur, Savar, Dhaka - 1340
+                        </p>
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div className="gap-5 flex">
-                    <img src="./twitter.jpg" alt="" />
-                    <img src="./linkedin.jpg" alt="" />
-                    <img src="./facebook.jpg" alt="" />
-                    <img src="./instagram.jpg" alt="" />
-                </div>
+                <img src="./twitter.jpg" alt="" />
+                <img src="./linkedin.jpg" alt="" />
+                <img src="./facebook.jpg" alt="" />
+                <img src="./instagram.jpg" alt="" />
+            </div>
         </div>
 
         <div></div>

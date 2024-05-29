@@ -1,9 +1,10 @@
 function Service (){
     return <section className="bg-[#F5F7FA] py-24 px-36 items-center justify-items-center">
-        <div className="flex mb-12">
+        <div className="flex pb-12 justify-around">
             <h2 className="font-semibold text-5xl">Our Services <br /> And Sub Brand</h2>
-            <p className="ml-12 mr-24 text-[#A6A6A6] font-medium text-lg">We offer a variety of interesting features that you can <br /> help increase yor productivity at work and manage <br /> your projrct esaly</p>
-            <p className="bg-[#E56044] text-[#FFFFFF] rounded-lg py-4 px-8 items-center">Contact Us</p>
+            <p className="text-[#A6A6A6] font-medium text-lg">We offer a variety of interesting features that you can <br /> help increase yor productivity at work and manage <br /> your projrct esaly</p>
+
+            <button className="bg-[#E56044] text-[#FFFFFF] rounded-full px-4">Contact Us</button>
         </div>
 
         <div className="flex gap-11">
