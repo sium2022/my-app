@@ -4,15 +4,14 @@ function Team (){
         <p className="text-center font-medium text-lg text-[#666666] mt-2 mb-14">Let's make your work more organize and easily using</p>
 
         <div className="flex gap-28">
-                    {/* item center does not working */}
 
                     {/* team-1 */}
-            <div className="items-center">
+            <div className="">
                 <img src="./team-1.jpg" alt="" />
-                <p className="font-semibold text-2xl text-[#FF8B73] mt-8">Jon's Adwar</p>
-                <p className="font-medium text-lg my-3">Let's make your work more</p>
+                <p className="font-semibold text-center text-2xl text-[#FF8B73] mt-8">Jon's Adwar</p>
+                <p className="font-medium text-center text-lg my-3">Let's make your work more</p>
 
-                <div className="flex gap-3 items-center">
+                <div className="flex gap-3 justify-center">
                     <img src="./facebook.jpg" alt="" />
                     <img src="./twitter.jpg" alt="" />
                     <img src="./instagram.jpg" alt="" />
@@ -20,12 +19,12 @@ function Team (){
                 </div>
             </div>
                     {/* team-2 */}
-            <div className="items-center">
+            <div className="justify-items-center">
                 <img src="./team-2.png" alt="" />
-                <p className="font-semibold text-2xl text-[#FF8B73] mt-8">Jon's Adwar</p>
-                <p className="font-medium text-lg my-3">Let's make your work more</p>
+                <p className="font-semibold text-center text-2xl text-[#FF8B73] mt-8">Jon's Adwar</p>
+                <p className="font-medium text-center text-lg my-3">Let's make your work more</p>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 justify-center">
                     <img src="./facebook.jpg" alt="" />
                     <img src="./twitter.jpg" alt="" />
                     <img src="./instagram.jpg" alt="" />
@@ -36,9 +35,9 @@ function Team (){
             <div className="items-center">
                 <img src="./team-3.jpg" alt="" />
                 <p className="font-semibold text-2xl text-[#FF8B73] mt-8 text-center">Jon's Adwar</p>
-                <p className="font-medium text-lg my-3">Let's make your work more</p>
+                <p className="font-medium text-center text-lg my-3">Let's make your work more</p>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 justify-center">
                     <img src="./facebook.jpg" alt="" />
                     <img src="./twitter.jpg" alt="" />
                     <img src="./instagram.jpg" alt="" />

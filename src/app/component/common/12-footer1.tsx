@@ -73,17 +73,44 @@ function Footer1() {
             </form>
 
             <div>
-            <fieldset>
-                <legend className="font-bold">Select Subject?</legend>
+                <fieldset>
+                    <legend className="font-bold mb-4">Select Subject?</legend>
 
-                <input id="draft" className="peer/draft" type="radio" name="status" checked />
-                <label htmlFor="draft" className="peer-checked/draft:text-sky-500">Draft</label>
+                    <div className="flex gap-5">
+                        <div>
+                            <input id="General Inquiry" className="peer/General Inquiry mr-2" type="radio" name="status" checked />
+                            <label htmlFor="General Inquiry" className="peer-checked/General Inquiry:text-sky-500">General Inquiry</label>
+                        </div>
 
-                <input id="published" className="peer/published" type="radio" name="status" />
-                <label htmlFor="published" className="peer-checked/published:text-sky-500">Published</label>
-            </fieldset>
+                        <div>
+                            <input id="General Inquiry" className="peer/General Inquiry mr-2" type="radio" name="status" checked />
+                            <label htmlFor="General Inquiry" className="peer-checked/General Inquiry:text-sky-500">General Inquiry</label>
+                        </div>
+
+                        <div>
+                            <input id="General Inquiry" className="peer/General Inquiry mr-2" type="radio" name="status" checked />
+                            <label htmlFor="General Inquiry" className="peer-checked/General Inquiry:text-sky-500">General Inquiry</label>
+                        </div>
+
+                        <div>
+                            <input id="General Inquiry" className="peer/General Inquiry mr-2" type="radio" name="status" checked />
+                            <label htmlFor="General Inquiry" className="peer-checked/General Inquiry:text-sky-500">General Inquiry</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div className="mr-10 mt-12 border-b-2">
+                <p>Message</p>
+                <input className="w-full p-2" type="text" name="name" placeholder="Write your message" id="" />
+            </div>
+            
+            {/* justify-end is not working */}
+            <div className="justify-end mt-12">
+                <button className="justify-end text-[#FFFFFF] bg-[#FF8B73] rounded-full font-semibold py-3 px-6" type="button">Send Message</button>
+            </div>
+
         </div>
-    </div>
     </section >;
 }
 
