@@ -1,5 +1,5 @@
 function Footer2 (){
-    return <section className="pt-24 pb-20 px-40 bg-[#F5F7FA] flex gap-24">
+    return <section className="pt-24 pb-20 px-36 bg-[#F5F7FA] flex gap-24">
     <div>
         <img src="./header-logo.png" alt="" />
 
@@ -7,25 +7,34 @@ function Footer2 (){
         </p>
     </div>
 
-    <div className="gap-5 flex flex-col">
-        <p className="mb-2">Products</p>
-        <p>Features</p>
-        <p>Solutions</p>
-        <p>Pricing</p>
-        <p>Tutorials</p>
-        <p>Updates</p>
+    <div className="gap-5 flex flex-col font-medium">
+        <p className="mb-2 text-[#FF8166]"><a href="">Products</a></p>
+        <p><a href="">Features</a></p>
+        <p><a href="">Solutions</a></p>
+        <p><a href="">Pricing</a></p>
+        <p><a href="">Tutorials</a></p>
+        <p><a href="">Updates</a></p>
     </div>
 
-    <div className="gap-5 flex flex-col">
-        <p className="mb-2">Remaining</p>
-        <p>Blog</p>
-        <p>Newsletter</p>
-        <p>Help Center</p>
-        <p>Careers</p>
-        <p>Support</p>
+    <div className="gap-5 flex flex-col font-medium">
+        <p className="mb-2 text-[#FF8166]"><a href="">Remaining</a></p>
+        <p><a href="">Blog</a></p>
+        <p><a href="">Newsletter</a></p>
+        <p><a href="">Help Center</a></p>
+        <p><a href="">Careers</a></p>
+        <p><a href="">Support</a></p>
     </div>
 
-    <div></div>
+    <div>
+        <p className="font-medium text-[#FF8166] mb-6"><a href="">Newsletter</a></p>
+
+        <div className="gap-2">
+            <form className="flex gap-4 items-center" action="">
+                <input className="h-10 border-none px-2" type="email" placeholder="Your email" />
+                <p className="rounded-full bg-[#FF8B73] text-white px-4 py-3 font-medium"><a href="">Subscribe</a></p>
+            </form>
+        </div>
+    </div>
 </section>;
 }
 
