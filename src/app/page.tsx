@@ -16,8 +16,10 @@ export default function Home() {
   return (
     <main>
 
+<Banner/>
+      {/* 
       <Header/>
-      <Banner/>
+      
       <OurClients/>
       <AboutUs/>
       <OurSupportPartner/>
@@ -28,7 +30,7 @@ export default function Home() {
       <CeoQuote/>
       <Footer1/>
       <Footer2/>
-      <Footer3/>
+      <Footer3/> */}
 
     </main>
   );

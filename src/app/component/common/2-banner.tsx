@@ -1,5 +1,5 @@
 function Banner () {
-    return <section className="bg-white px-36 py-20 flex gap-x-24">
+    return <section className="bg-white px-2 lg:px-36 lg:py-20 flex-col lg:flex lg:gap-x-24">
         <div>
             <h1 className="my-7 font-bold text-6xl">We’re here to <br /> Increase your <br /> Productivity</h1>
 

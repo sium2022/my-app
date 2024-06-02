@@ -1,11 +1,12 @@
 function Header() {
-    return <section className="h-20 bg-[#F5F7FA] lg:flex items-center gap-x-60">
+    return <section className="lg:h-20 bg-[#F5F7FA] flex items-center justify-around lg:gap-x-60">
+        {/* NOTE - justify is not working */}
         <div className="ml-36">
             <img src="./header-logo.png" alt="" />
         </div>
 
         <div className="text-base font-normal lg:flex lg:gap-x-8">
-            <h5 className="text-orange-500 border-b-4 border-orange-500">Home</h5>
+            <h5 className="text-orange-500 lg:border-b-4 lg:border-orange-500">Home</h5>
             <h5>About Us</h5>
             <h5>Sub Brand</h5>
             <h5>Blog</h5>
