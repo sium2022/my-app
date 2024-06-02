@@ -8,9 +8,9 @@ function Service() {
 
             {/* <button className="bg-[#E56044] text-[#FFFFFF] rounded-full px-4">Contact Us</button> */}
 
-            <div className="bg-[#E56044] rounded-full py-2 px-6">
+            <div className="bg-[#E56044] rounded-full">
                     <a href="">
-                        <p className="text-[#FFFFFF] text-center">Contact Us</p>
+                        <p className="text-[#FFFFFF] py-2 px-6 text-center">Contact Us</p>
                     </a>
                 </div>
         </div>

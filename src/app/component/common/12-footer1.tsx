@@ -18,7 +18,7 @@ function Footer1() {
 
                 {/* adress */}
                 <div className="my-10 flex gap-7">
-                    <img className="items-start" src="./map.jpg" alt="" />
+                    <img className="h-6 items-start" src="./map.jpg" alt="" />
                     <div>
                         <p className="font-normal text-base">
                             <span className="font-bold text-[#FF8166]">Head Office:</span> 68/3/C, Zigatola Post <br /> Office Road, Dhaka - 1209

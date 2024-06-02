@@ -1,5 +1,5 @@
 function AboutUs() {
-    return <section className="flex flex-col lg:flex-row gap-36 items-center justify-items-center lg:mx-36 py-16 px-6">
+    return <section className="flex flex-col-reverse lg:flex-row gap-36 items-center justify-items-center lg:mx-36 py-16 px-6">
         <div>
             <div>
                 <img className="w-full" src="./about-us.jpg" alt="" />

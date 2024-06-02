@@ -11,6 +11,7 @@ import CeoQuote from "./component/common/11-ceoquote";
 import Footer1 from "./component/common/12-footer1";
 import Footer2 from "./component/common/13-footer2";
 import Footer3 from "./component/common/14-footer3";
+import TestComponent from "./component/common/test-component";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Footer1/>
       <Footer2/>
       <Footer3/>
+      <TestComponent/>
 
     </main>
   );
