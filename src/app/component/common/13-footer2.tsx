@@ -1,5 +1,5 @@
 function Footer2 (){
-    return <section className="pt-24 pb-20 px-36 bg-[#F5F7FA] flex gap-24">
+    return <section className="pt-24 pb-20 px-4 lg:px-36 bg-[#F5F7FA] flex flex-col lg:flex-row gap-24">
     <div>
         <img src="./header-logo.png" alt="" />
 
@@ -29,7 +29,7 @@ function Footer2 (){
         <p className="font-medium text-[#FF8166] mb-6"><a href="">Newsletter</a></p>
 
         <div className="gap-2">
-            <form className="flex gap-4 items-center" action="">
+            <form className="flex flex-col lg:flex-row gap-4 items-center" action="">
                 <input className="h-10 border-none px-2" type="email" placeholder="Your email" />
                 <p className="rounded-full border-none bg-[#FF8B73] text-white px-4 py-3 font-medium"><a href="">Subscribe</a></p>
             </form>

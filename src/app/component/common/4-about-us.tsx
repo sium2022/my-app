@@ -1,8 +1,8 @@
 function AboutUs() {
-    return <section className="flex gap-36 items-center justify-items-center mx-36 py-16">
+    return <section className="flex flex-col lg:flex-row gap-36 items-center justify-items-center lg:mx-36 py-16 px-6">
         <div>
             <div>
-                <img src="./about-us.jpg" alt="" />
+                <img className="w-full" src="./about-us.jpg" alt="" />
             </div>
         </div>
 

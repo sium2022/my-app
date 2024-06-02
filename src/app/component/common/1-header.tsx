@@ -1,6 +1,6 @@
 function Header() {
-    return <section className="lg:h-20 bg-[#F5F7FA] flex items-center justify-around lg:gap-x-60">
-        {/* NOTE - justify is not working */}
+    return <section className="lg:h-20 bg-[#F5F7FA] flex items-center justify-around lg:gap-x-60 px-2">
+        {/* NOTE - justify is not working */} 
         <div className="ml-36">
             <img src="./header-logo.png" alt="" />
         </div>

@@ -1,9 +1,9 @@
 function Team (){
-    return <section className="py-16 px-52">
+    return <section className="py-16 px-6 lg:px-52">
         <p className="text-center font-semibold text-5xl text-[#191A15]">Our Team</p>
         <p className="text-center font-medium text-lg text-[#666666] mt-2 mb-14">Let's make your work more organize and easily using</p>
 
-        <div className="flex gap-28">
+        <div className="flex flex-col lg:flex-row gap-28 items-center justify-center">
 
                     {/* team-1 */}
             <div className="">

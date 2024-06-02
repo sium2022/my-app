@@ -1,6 +1,6 @@
 function CeoQuote() {
-    return <section className="my-36 mx-60">
-        <p className="text-5xl font-semibold text-center mb-16">The best solution for anyone who wants to work a flexible schedule but still earn a full-time income.</p>
+    return <section className="my-36 px-4 lg:mx-60 flex flex-col lg:flex-row">
+        <p className="text-2xl lg:text-5xl font-semibold text-center mb-16">The best solution for anyone who wants to work a flexible schedule but still earn a full-time income.</p>
 
         <div className="text-center">
 

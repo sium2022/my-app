@@ -1,5 +1,5 @@
 function OurSupportPartner (){
-    return <section className="flex my-20 mx-36 gap-40 items-center">
+    return <section className="flex flex-col lg:flex-row my-20 px-6 lg:mx-36 gap-40 items-center">
         <div>
             <h1 className="mb-4 font-semibold text-5xl">How we support our <br /> pratner over the <br /> world</h1>
             <p className="mb-7 font-medium text-base text-[#A6A6A6]">SaaS become a common delivery model for many business application, <br /> including office software, messaging software, payroll processing <br /> software, DBMS software, management software</p>

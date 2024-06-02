@@ -1,10 +1,10 @@
 function SteveJobs() {
-    return <div className="flex items-center gap-20">
+    return <div className="flex flex-col lg:flex-row items-center gap-20">
         <div>
             <img src="./steve-kaku.jpg" alt="" />
         </div>
 
-        <div>
+        <div className="px-4 pb-4">
             <h1 className="mb-4 font-semibold text-5xl">Designing user <br /> interface aesthetics <br /> that sync  with the
              <br /> natural environment</h1>
 

@@ -1,6 +1,6 @@
 function Footer1() {
-    return <section className="flex">
-        <div className="lg:w-2/5 bg-[#F5F7FA] pb-10 pt-20 pr-18 pl-24">
+    return <section className="flex flex-col lg:flex-row">
+        <div className="lg:w-2/5 bg-[#F5F7FA] pb-10 pt-20 px-4 lg:pr-18 lg:pl-24">
             <p className="text-[#666666] text-left">Say something to start a live chat!</p>
 
             <div className="py-24">
@@ -45,27 +45,27 @@ function Footer1() {
             </div>
         </div>
 
-        <div className="pl-20 pr-32 py-10 bg-[#FFF]">
+        <div className="lg:pl-20 lg:pr-32 px-4 py-10 bg-[#FFF]">
             <form className="my-10" action="">
-                <div className="flex">
-                    <div className="mr-10 border-b-2">
+                <div className="flex flex-col lg:flex-row lg:my-10">
+                    <div className="mt-6 mb-4 lg:mr-10 border-b-2">
                         <p>First Name</p>
                         <input type="text" name="name" placeholder="" id="" />
                     </div>
 
-                    <div className="border-b-2">
+                    <div className="mt-6 mb-4 border-b-2">
                         <p>Last Name</p>
                         <input type="text" name="name" placeholder="" id="" />
                     </div>
                 </div>
 
-                <div className="flex my-10">
-                    <div className="mr-10 border-b-2">
+                <div className="flex flex-col lg:flex-row lg:my-10">
+                    <div className="mt-6 mb-4 lg:mr-10 border-b-2">
                         <p>Email Address</p>
                         <input type="email" name="email" placeholder="" id="" />
                     </div>
 
-                    <div className="border-b-2">
+                    <div className="mt-6 mb-4 border-b-2">
                         <p>Mobile Number</p>
                         <input type="number" name="number" placeholder="" id="" />
                     </div>
