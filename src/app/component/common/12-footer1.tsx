@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Footer1() {
     return <section className="flex flex-col lg:flex-row">
         <div className="lg:w-2/5 bg-[#F5F7FA] pb-10 pt-20 px-4 lg:pr-18 lg:pl-24">

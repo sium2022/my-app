@@ -1,9 +1,15 @@
+import Image from 'next/image'
+
 function Header() {
     return <section className="lg:h-20 bg-[#F5F7FA] flex items-center justify-around lg:gap-x-60 px-2">
         {/* NOTE - justify is not working */} 
         {/* FIXME - */}
         <div className="ml-36">
-            <img src="./header-logo.png" alt="" />
+        <Image
+                src="/header-logo.png"
+                width={50}
+                height={50}
+                alt="Picture of the author"/>
         </div>
 
         <div className="text-base font-normal lg:flex lg:gap-x-8">

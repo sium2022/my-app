@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Team (){
     return <section className="py-16 px-6 lg:px-52">
         <p className="text-center font-semibold text-5xl text-[#191A15]">Our Team</p>

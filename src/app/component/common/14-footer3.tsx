@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Footer3 (){
     return <section className="bg-[#F5F7FA]">
         <hr className="bg-[#FF8B7333] h-1" />

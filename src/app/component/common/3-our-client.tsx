@@ -12,26 +12,31 @@ function OurClients() {
                 width={50}
                 height={50}
                 alt="Picture of the author"/>
+
             <Image
                 src="/our-client-2.jpg"
                 width={50}
                 height={50}
                 alt="Picture of the author"/>
+
             <Image
                 src="/our-client-3.jpg"
                 width={50}
                 height={50}
                 alt="Picture of the author"/>
+
             <Image
                 src="/our-client-4.jpg"
                 width={50}
                 height={50}
                 alt="Picture of the author"/>
+
             <Image
                 src="/our-client-5.jpg"
                 width={50}
                 height={50}
                 alt="Picture of the author"/>
+                
             <Image
                 src="/our-client-6.jpg"
                 width={50}

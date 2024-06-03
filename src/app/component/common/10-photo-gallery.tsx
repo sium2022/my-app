@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function PhotoGallery() {
     return <section className="bg-[#F5F7FA] py-20 lg:px-40">
         {/* <div>

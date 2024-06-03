@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function OurSupportPartner (){
     return <section className="flex flex-col lg:flex-row my-20 px-6 lg:mx-36 gap-40 items-center">
         <div>

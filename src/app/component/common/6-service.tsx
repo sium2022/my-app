@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Service() {
 
     return <section className="bg-[#F5F7FA] py-6 px-6 lg:px-36 items-center justify-items-center">

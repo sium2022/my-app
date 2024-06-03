@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Founder() {
     return <section className="py-32 px-6 lg:px-36 bg-white gap-16 lg:gap-8 flex flex-col lg:flex-row items-center">
         <div>

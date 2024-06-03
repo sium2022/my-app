@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function SteveJobs() {
     return <div className="flex flex-col lg:flex-row items-center gap-20">
         <div>

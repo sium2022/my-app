@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function Banner () {
     return <section className="bg-white px-2 lg:px-36 lg:py-20 flex flex-col lg:flex-row lg:gap-x-24">
         <div>
