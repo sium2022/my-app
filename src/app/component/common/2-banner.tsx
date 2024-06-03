@@ -5,7 +5,7 @@ function Banner () {
 
             <p className="my-14 text-lg font-normal text-gray-500">Let's make your work more organize and easily using <br /> the Taskio Dashboard with many of the latest <br /> featuresin managing work every day.</p>
 
-            {/*NOTE - <div>
+            {/*FIXME - <div>
                 Here is a curved line
             </div> */}
 
