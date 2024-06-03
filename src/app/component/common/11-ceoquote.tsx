@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function CeoQuote() {
     return <section className="my-36 px-4 lg:mx-60 flex flex-col">
-        <p className="text-2xl lg:text-5xl font-semibold text-center mb-16">The best solution for anyone who wants to work a flexible schedule but still earn a full-time income.</p>
+        <p className="text-4xl lg:text-5xl font-semibold text-center mb-16">The best solution for anyone who wants to work a flexible schedule but still earn a full-time income.</p>
 
         <div className="text-center">
 

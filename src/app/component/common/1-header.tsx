@@ -7,8 +7,8 @@ function Header() {
         <div className="ml-36">
         <Image
                 src="/header-logo.png"
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 alt="Picture of the author"/>
         </div>
 
